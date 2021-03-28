@@ -14,6 +14,8 @@ public class HORMEXTest {
 		    // Account account=  session.get(Account.class, 1);
 		       Actor  actor=  session.get(Actor.class, 1);
 		     System.out.println(actor);
+		     Actor  actor2 = session.get(Actor.class, 2);
+		     System.out.println(actor2);
 	}
 
 }
